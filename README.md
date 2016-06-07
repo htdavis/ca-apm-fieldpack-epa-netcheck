@@ -51,3 +51,12 @@ Changes for each version of the field pack.
 Version | Author | Comment
 --------|--------|--------
 1.0 | Hiko Davis | First bundled version of the field packs.
+
+## Support URL
+https://github.com/htdavis/ca-apm-fieldpack-epa-netcheck/issues
+
+## Short Description
+Monitor servers and ports by PING and SOCKET connections
+
+## Categories
+Server Monitoring
