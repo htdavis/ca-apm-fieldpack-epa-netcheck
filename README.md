@@ -1,10 +1,12 @@
 # EPAgent Plugins for Simple Network and Server Health Check (1.0)
 
+# Description
 This is a plugin that monitors servers and ports by PING and SOCKET connections.
 
 datafile.txt - A list of servers and ports to be tested (includes sample format in the header)  
 netCheck.pl - Main Perl program 
 
+## Dependencies
 Tested with CA APM 9.7.1 EM, EPAgent 9.7.1, and Perl 5.10+.
 
 ##Known Issues
