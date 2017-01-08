@@ -20,7 +20,7 @@ Follow the instructions in the EPAgent guide to setup the agent.
 
 Extract plugins to <epa_home>/epaplugins.
 
-Add a stateful plugin entry for NMON LogReader and a stateless plugin entries for all others to \<epa_home\>/IntroscopeEPAgent.properties.
+Add a stateful plugin entry for NETCHECK and a stateless plugin entries for all others to \<epa_home\>/IntroscopeEPAgent.properties.
 
 	introscope.epagent.plugins.stateless.names=NETCHECK (can be appended to a previous entry)
 	introscope.epagent.stateless.NETCHECK.command=perl <epa_home>/epaplugins/netcheck/netCheck.pl "<epa_home>/epaplugins/netcheck/datafile.txt"
