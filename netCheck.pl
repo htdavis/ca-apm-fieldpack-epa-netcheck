@@ -107,7 +107,7 @@ foreach my $line (@testList) {
                 # report success
                 printMetric("IntCounter", "NetCheck", $server[0] . "|" . $port, "Status", 1);
             } else {
-                # repot failure
+                # report failure
                 printMetric("IntCounter", "NetCheck", $server[0] . "|" . $port, "Status", 0);
             }
         }
